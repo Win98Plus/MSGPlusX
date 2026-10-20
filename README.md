@@ -1,4 +1,4 @@
-# MSGPlusX (v1.1) — Source Code
+# MSGPlusX for Messenger
 
 **MSGPlusX** is a feature customization tweak for **Facebook Messenger** (`com.facebook.Messenger`) on iOS (`arm64`, iOS 15.0+). It integrates a native `PSListController` settings interface, a custom 3-column alternate app icon picker, privacy controls, media utilities, and tab bar customization.
 
