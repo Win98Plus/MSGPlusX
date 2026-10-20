@@ -64,3 +64,9 @@ make clean package FINALPACKAGE=1 THEOS_PACKAGE_SCHEME=rootless
 ### 3. Build Standalone `.dylib` for Sideloading & LiveContainer
 
 After running `make`, copy the compiled dynamic library from `.theos/obj/debug/MSGPlusX.dylib` (or `.theos/obj/MSGPlusX.dylib` when `FINALPACKAGE=1` is set). For non-jailbroken IPA injection (Feather, ESign, Sideloadly, Azule, or LiveContainer), ensure `CydiaSubstrate.framework/CydiaSubstrate` is rewritten to `@executable_path/Frameworks/CydiaSubstrate.framework/CydiaSubstrate` via `install_name_tool` if required by your signer.
+
+## Disclaimer
+
+This project is not affiliated with or endorsed by Meta or the original MSGPlusX author.
+
+It is provided for research, code review and educational purposes. The source code and its changes are provided without a guarantee that every feature will work on every device or app version.
