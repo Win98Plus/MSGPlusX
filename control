@@ -1,0 +1,9 @@
+Package: com.densor.msgplusx
+Name: MSGPlusX
+Version: 1.1.0
+Architecture: iphoneos-arm
+Description: Feature customization tweak for Facebook Messenger
+Maintainer: DeNsor
+Author: DeNsor
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
